@@ -1,0 +1,44 @@
+
+body {
+    background-color: rgb(241, 239, 231);
+    font-size: 30px;
+    margin-left: 20%;
+    margin-right: 20%;
+    padding: 15px;
+    border: 10px solid rgb(0, 0, 0);
+    font-family: 'Inconsolata', monospace;
+}
+
+#header {
+display: block;
+text-align: center;
+padding: 20px;
+border-bottom: 3px solid gray;
+}
+
+#header img {
+    width: 300px;
+    border-radius: 10%;
+}
+
+#header h1,h2 {
+    margin: 0%;
+}
+
+#page-content {
+    margin: 30px;
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    border-bottom: 3px solid gray;
+}
+
+#header h2,h3 {
+    margin: 0%;
+}
+
+#footer h3,p{
+    margin: 0%;
+    display: inline-block;
+    padding-left: 30px;
+}
