@@ -45,3 +45,36 @@ header h2,h3 {
 a {
     display: block;
 }
+
+.contact-main {
+    display: flex;
+    flex-direction: column;
+}
+
+form {
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.email, .message {
+    border: 2px solid rgb(136, 136, 136);
+    background-color: aliceblue;
+    margin: 10px;
+    width: 200px;
+    height: 50px;
+}
+
+button {
+    width: 100px;
+    height: 50px;
+}
+
+a {
+    color: black;
+}
+
+a:hover {
+    color: rgb(88, 88, 88);
+}
